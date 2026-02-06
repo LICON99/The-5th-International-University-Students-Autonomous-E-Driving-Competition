@@ -1,0 +1,152 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccb52/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccb52.dir/build.make CMakeFiles/cmTC_ccb52.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccb52.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_ccb52.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_ccb52.dir/build.make:78: CMakeFiles/cmTC_ccb52.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ccb52/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26593/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26593.dir/build.make CMakeFiles/cmTC_26593.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26593.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_26593.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+gmake[1]: *** [CMakeFiles/cmTC_26593.dir/build.make:78: CMakeFiles/cmTC_26593.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_26593/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11505/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11505.dir/build.make CMakeFiles/cmTC_11505.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11505.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_11505.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd981'
+gmake[1]: *** [CMakeFiles/cmTC_11505.dir/build.make:78: CMakeFiles/cmTC_11505.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_11505/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9073/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9073.dir/build.make CMakeFiles/cmTC_d9073.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9073.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_d9073.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd2304'
+gmake[1]: *** [CMakeFiles/cmTC_d9073.dir/build.make:78: CMakeFiles/cmTC_d9073.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d9073/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2151a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2151a.dir/build.make CMakeFiles/cmTC_2151a.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2151a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles/cmTC_2151a.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+gmake[1]: *** [CMakeFiles/cmTC_2151a.dir/build.make:78: CMakeFiles/cmTC_2151a.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2151a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2945d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2945d.dir/build.make CMakeFiles/cmTC_2945d.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2945d.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles/cmTC_2945d.dir/src.cxx.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTC_2945d.dir/build.make:78: CMakeFiles/cmTC_2945d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2945d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test SCOTCH_Num_4 failed with the following compile output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4828b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4828b.dir/build.make CMakeFiles/cmTC_4828b.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4828b.dir/src.c.o
+/usr/bin/cc -DSCOTCH_Num_4  -fopenmp -o CMakeFiles/cmTC_4828b.dir/src.c.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.c
+/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4828b.dir/build.make:78: CMakeFiles/cmTC_4828b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4828b/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test SCOTCH_Num_8 failed with the following compile output:
+Change Dir: /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52282/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52282.dir/build.make CMakeFiles/cmTC_52282.dir/build
+gmake[1]: Entering directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52282.dir/src.c.o
+/usr/bin/cc -DSCOTCH_Num_8  -fopenmp -o CMakeFiles/cmTC_52282.dir/src.c.o -c /home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.c
+/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_52282.dir/build.make:78: CMakeFiles/cmTC_52282.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/aiv/ev_ws/ros2/build/patchworkpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_52282/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+

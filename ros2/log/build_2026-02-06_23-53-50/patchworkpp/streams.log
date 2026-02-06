@@ -1,0 +1,144 @@
+[0.011s] Invoking command in '/home/aiv/ev_ws/ros2/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake /home/aiv/ev_ws/ros2/src/patchwork-plusplus/ros -DCMAKE_INSTALL_PREFIX=/home/aiv/ev_ws/ros2/install/patchworkpp
+[0.077s] -- Performing Test COMPILER_SUPPORT_std=cpp03
+[0.132s] -- Performing Test COMPILER_SUPPORT_std=cpp03 - Success
+[0.133s] -- Standard libraries to link to explicitly: none
+[0.153s] -- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+[0.154s] -- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+[0.156s] -- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) 
+[0.174s] -- Looking for Fortran sgemm
+[0.231s] -- Looking for Fortran sgemm - found
+[0.235s] -- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+[0.236s] -- Could NOT find SPQR (missing: SPQR_INCLUDES SPQR_LIBRARIES) 
+[0.241s] -- Found unsuitable Qt version "5.15.3" from /usr/bin/qmake
+[0.386s] -- The Fortran compiler identification is GNU 11.4.0
+[0.398s] -- Could NOT find GoogleHash (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) 
+[0.400s] -- Could NOT find Adolc (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) 
+[0.408s] -- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "1.0.0")
+[0.418s] -- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) 
+[0.439s] -- Found unsuitable Qt version "5.15.3" from /usr/bin/qmake
+[0.439s] -- Qt4 not found, so disabling the mandelbrot and opengl demos
+[0.441s] -- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+[0.443s] -- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+[0.444s] -- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) 
+[0.452s] -- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+[0.452s] -- ************************************************************
+[0.452s] -- ***    Eigen's unit tests configuration summary          ***
+[0.452s] -- ************************************************************
+[0.452s] -- 
+[0.452s] -- Build type:        Release
+[0.452s] -- Build site:        aiv
+[0.453s] -- Build string:      linux-6.8.0-94-generic-_-11.4.0-sse2-64bit
+[0.453s] -- Enabled backends:  SuperLU,  Boost.Multiprecision, 
+[0.453s] -- Disabled backends: CHOLMOD,  UMFPACK,  KLU,  PaStiX,  METIS,  SPQR,  Qt4 support,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, 
+[0.453s] -- Default order:     Column-major
+[0.453s] -- Maximal matrix/vector size: 320
+[0.453s] -- SSE2:              Using architecture defaults
+[0.453s] -- SSE3:              Using architecture defaults
+[0.453s] -- SSSE3:             Using architecture defaults
+[0.453s] -- SSE4.1:            Using architecture defaults
+[0.453s] -- SSE4.2:            Using architecture defaults
+[0.453s] -- AVX:               Using architecture defaults
+[0.453s] -- AVX2:              Using architecture defaults
+[0.453s] -- FMA:               Using architecture defaults
+[0.453s] -- AVX512:            Using architecture defaults
+[0.453s] -- AVX512DQ:          Using architecture defaults
+[0.453s] -- Altivec:           Using architecture defaults
+[0.453s] -- VSX:               Using architecture defaults
+[0.453s] -- MIPS MSA:          Using architecture defaults
+[0.453s] -- ARM NEON:          Using architecture defaults
+[0.453s] -- ARMv8 NEON:        Using architecture defaults
+[0.453s] -- S390X ZVECTOR:     Using architecture defaults
+[0.453s] -- C++11:             OFF
+[0.454s] -- SYCL:              OFF
+[0.454s] -- CUDA:              OFF
+[0.454s] -- HIP:               OFF
+[0.454s] -- 
+[0.454s] CXX:               /usr/bin/c++
+[0.454s]  CXX_VERSION:       c++ (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0
+[0.454s]  CXX_FLAGS:           -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi
+[0.454s]  Sparse lib flags:   ;/usr/lib/x86_64-linux-gnu/libsuperlu.so;eigen_blas
+[0.454s] 
+[0.454s] -- ************************************************************
+[0.454s] -- 
+[0.454s] -- Configured Eigen 3.4.0
+[0.454s] -- 
+[0.454s] -- Available targets (use: make TARGET):
+[0.454s] -- ---------+--------------------------------------------------------------
+[0.454s] -- Target   |   Description
+[0.454s] -- ---------+--------------------------------------------------------------
+[0.454s] -- install  | Install Eigen. Headers will be installed to:
+[0.455s] --          |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+[0.455s] --          |   Using the following values:
+[0.455s] --          |     CMAKE_INSTALL_PREFIX: /home/aiv/ev_ws/ros2/install/patchworkpp
+[0.455s] --          |     INCLUDE_INSTALL_DIR:  include/eigen3
+[0.455s] --          |   Change the install location of Eigen headers using:
+[0.455s] --          |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+[0.455s] --          |   Or:
+[0.455s] --          |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+[0.455s] -- doc      | Generate the API documentation, requires Doxygen & LaTeX
+[0.455s] -- check    | Build and run the unit-tests. Read this page:
+[0.455s] --          |   http://eigen.tuxfamily.org/index.php?title=Tests
+[0.455s] -- blas     | Build BLAS library (not the same thing as Eigen)
+[0.455s] -- uninstall| Remove files installed by the install target
+[0.455s] -- ---------+--------------------------------------------------------------
+[0.455s] -- 
+[0.455s] [0mParent project name: patchworkpp[0m
+[0.455s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.523s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.531s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.570s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.592s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.609s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.617s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.625s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.691s] -- Configuring done
+[1.166s] -- Generating done
+[1.341s] -- Build files have been written to: /home/aiv/ev_ws/ros2/build/patchworkpp
+[1.363s] Invoked command in '/home/aiv/ev_ws/ros2/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake /home/aiv/ev_ws/ros2/src/patchwork-plusplus/ros -DCMAKE_INSTALL_PREFIX=/home/aiv/ev_ws/ros2/install/patchworkpp
+[1.364s] Invoking command in '/home/aiv/ev_ws/ros2/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake --build /home/aiv/ev_ws/ros2/build/patchworkpp -- -j28 -l28
+[1.464s] [35m[1mConsolidate compiler generated dependencies of target ground_seg_cores[0m
+[1.464s] [35m[1mConsolidate compiler generated dependencies of target patchworkpp_node[0m
+[1.474s] Built target ground_seg_cores
+[1.476s] Built target patchworkpp_node
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target gseg_component[0m
+[1.493s] Built target gseg_component
+[1.501s] Invoked command in '/home/aiv/ev_ws/ros2/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake --build /home/aiv/ev_ws/ros2/build/patchworkpp -- -j28 -l28
+[1.504s] Invoking command in '/home/aiv/ev_ws/ros2/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake --install /home/aiv/ev_ws/ros2/build/patchworkpp
+[1.509s] -- Install configuration: "Release"
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/include
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/include/patchwork
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/include/patchwork/patchworkpp.h
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/libground_seg_cores.a
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppConfig.cmake
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppConfig-release.cmake
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppTargets.cmake
+[1.509s] -- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppTargets-release.cmake
+[1.509s] -- Execute custom install script
+[1.509s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/patchworkpp/patchworkpp_node
+[1.509s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/libgseg_component.so
+[1.509s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp//launch/patchworkpp.launch.py
+[1.509s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp//rviz/patchworkpp.rviz
+[1.509s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/path.sh
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/path.dsv
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.bash
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.sh
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.zsh
+[1.510s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.dsv
+[1.510s] -- Symlinking: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/package.dsv
+[1.516s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+[1.516s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/rclcpp_components/patchworkpp
+[1.516s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+[1.516s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+[1.516s] -- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/package.xml
+[1.518s] Invoked command in '/home/aiv/ev_ws/ros2/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble /usr/bin/cmake --install /home/aiv/ev_ws/ros2/build/patchworkpp

@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.000176] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.000203] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.000219] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.000236] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.000254] (patchworkpp) JobQueued: {'identifier': 'patchworkpp', 'dependencies': OrderedDict()}
+[0.000286] (patchworkpp) JobStarted: {'identifier': 'patchworkpp'}
+[0.005728] (patchworkpp) JobProgress: {'identifier': 'patchworkpp', 'progress': 'cmake'}
+[0.006089] (patchworkpp) JobProgress: {'identifier': 'patchworkpp', 'progress': 'build'}
+[0.006543] (patchworkpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiv/ev_ws/ros2/build/patchworkpp', '--', '-j28', '-l28'], 'cwd': '/home/aiv/ev_ws/ros2/build/patchworkpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aiv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/aiv/ev_ws/ros2/install/velodyne_pointcloud/lib:/home/aiv/ev_ws/ros2/install/velodyne_driver/lib:/home/aiv/ev_ws/ros2/install/velodyne_msgs/lib:/home/aiv/ev_ws/ros2/install/velodyne_laserscan/lib:/home/aiv/ev_ws/ros2/install/patchworkpp/lib:/home/aiv/ros2_study/install/my_first_package_msgs/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_serial/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_util/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aiv'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aiv/ev_ws/ros2/src/patchwork-plusplus'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/aiv/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/aiv/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2103'), ('SYSTEMD_EXEC_PID', '2368'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('NVM_DIR', '/home/aiv/.nvm'), ('COLCON_PREFIX_PATH', '/home/aiv/ros2_study/install:/home/aiv/workspace/ros2/erp42_ros/install:/home/aiv/workspace/ros2/t870_ros/install:/home/aiv/workspace/ros2/erp42_racing_ros/install:/home/aiv/workspace/ros2/velodyne/install:/home/aiv/ev_ws/ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiv'), ('JOURNAL_STREAM', '8:21840'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiv/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiv:@/tmp/.ICE-unix/2339,unix/aiv:/tmp/.ICE-unix/2339'), ('INVOCATION_ID', '9ad36782e1064f8d8316413fb8fd0d26'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-84c9dd9eb3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aiv/ev_ws/ros2/install/velodyne:/home/aiv/ev_ws/ros2/install/velodyne_pointcloud:/home/aiv/ev_ws/ros2/install/velodyne_driver:/home/aiv/ev_ws/ros2/install/velodyne_msgs:/home/aiv/ev_ws/ros2/install/velodyne_laserscan:/home/aiv/ev_ws/ros2/install/patchworkpp:/home/aiv/ros2_study/install/my_second_package:/home/aiv/ros2_study/install/my_first_package_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs:/home/aiv/workspace/ros2/erp42_ros/install/erp42_description:/home/aiv/workspace/ros2/erp42_ros/install/erp42_cmake:/home/aiv/workspace/ros2/t870_ros/install/t870_serial:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin:/home/aiv/workspace/ros2/t870_ros/install/t870_util:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs:/home/aiv/workspace/ros2/t870_ros/install/t870_cmake:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_description:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f5acd998-780d-4b58-8656-e115cd36effd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiv/ev_ws/ros2/build/patchworkpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aiv/ev_ws/ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/aiv/ros2_study/install/my_second_package/lib/python3.10/site-packages:/home/aiv/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'code --wait'), ('CMAKE_PREFIX_PATH', '/home/aiv/ev_ws/ros2/install/velodyne:/home/aiv/ev_ws/ros2/install/velodyne_pointcloud:/home/aiv/ev_ws/ros2/install/velodyne_driver:/home/aiv/ev_ws/ros2/install/velodyne_msgs:/home/aiv/ev_ws/ros2/install/velodyne_laserscan:/home/aiv/ev_ws/ros2/install/patchworkpp:/home/aiv/ros2_study/install/my_first_package_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs:/home/aiv/workspace/ros2/erp42_ros/install/erp42_description:/home/aiv/workspace/ros2/erp42_ros/install/erp42_cmake:/home/aiv/workspace/ros2/t870_ros/install/t870_serial:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin:/home/aiv/workspace/ros2/t870_ros/install/t870_util:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs:/home/aiv/workspace/ros2/t870_ros/install/t870_cmake:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_description:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_cmake:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble')]), 'shell': False}
+[0.092912] (patchworkpp) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_std=cpp03\n'}
+[0.099561] (-) TimerEvent: {}
+[0.142859] (patchworkpp) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_std=cpp03 - Success\n'}
+[0.143063] (patchworkpp) StdoutLine: {'line': b'-- Standard libraries to link to explicitly: none\n'}
+[0.158920] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) \n'}
+[0.160376] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) \n'}
+[0.161692] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) \n'}
+[0.179512] (patchworkpp) StdoutLine: {'line': b'-- Looking for Fortran sgemm\n'}
+[0.199696] (-) TimerEvent: {}
+[0.239540] (patchworkpp) StdoutLine: {'line': b'-- Looking for Fortran sgemm - found\n'}
+[0.243271] (patchworkpp) StdoutLine: {'line': b'-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.\n'}
+[0.244612] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find SPQR (missing: SPQR_INCLUDES SPQR_LIBRARIES) \n'}
+[0.252043] (patchworkpp) StdoutLine: {'line': b'-- Found unsuitable Qt version "5.15.3" from /usr/bin/qmake\n'}
+[0.299789] (-) TimerEvent: {}
+[0.397233] (patchworkpp) StdoutLine: {'line': b'-- The Fortran compiler identification is GNU 11.4.0\n'}
+[0.399842] (-) TimerEvent: {}
+[0.407331] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find GoogleHash (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) \n'}
+[0.409197] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find Adolc (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) \n'}
+[0.417815] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "1.0.0")\n'}
+[0.427656] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) \n'}
+[0.453699] (patchworkpp) StdoutLine: {'line': b'-- Found unsuitable Qt version "5.15.3" from /usr/bin/qmake\n'}
+[0.453795] (patchworkpp) StdoutLine: {'line': b'-- Qt4 not found, so disabling the mandelbrot and opengl demos\n'}
+[0.455923] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) \n'}
+[0.457414] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) \n'}
+[0.458823] (patchworkpp) StdoutLine: {'line': b'-- Could NOT find KLU (missing: KLU_INCLUDES KLU_LIBRARIES) \n'}
+[0.466840] (patchworkpp) StdoutLine: {'line': b'-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.\n'}
+[0.466997] (patchworkpp) StdoutLine: {'line': b'-- ************************************************************\n'}
+[0.467147] (patchworkpp) StdoutLine: {'line': b"-- ***    Eigen's unit tests configuration summary          ***\n"}
+[0.467201] (patchworkpp) StdoutLine: {'line': b'-- ************************************************************\n'}
+[0.467252] (patchworkpp) StdoutLine: {'line': b'-- \n'}
+[0.467460] (patchworkpp) StdoutLine: {'line': b'-- Build type:        Release\n'}
+[0.467508] (patchworkpp) StdoutLine: {'line': b'-- Build site:        aiv\n'}
+[0.467539] (patchworkpp) StdoutLine: {'line': b'-- Build string:      linux-6.8.0-94-generic-_-11.4.0-sse2-64bit\n'}
+[0.467570] (patchworkpp) StdoutLine: {'line': b'-- Enabled backends:  SuperLU,  Boost.Multiprecision, \n'}
+[0.467598] (patchworkpp) StdoutLine: {'line': b'-- Disabled backends: CHOLMOD,  UMFPACK,  KLU,  PaStiX,  METIS,  SPQR,  Qt4 support,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, \n'}
+[0.467627] (patchworkpp) StdoutLine: {'line': b'-- Default order:     Column-major\n'}
+[0.467654] (patchworkpp) StdoutLine: {'line': b'-- Maximal matrix/vector size: 320\n'}
+[0.467678] (patchworkpp) StdoutLine: {'line': b'-- SSE2:              Using architecture defaults\n'}
+[0.467700] (patchworkpp) StdoutLine: {'line': b'-- SSE3:              Using architecture defaults\n'}
+[0.467725] (patchworkpp) StdoutLine: {'line': b'-- SSSE3:             Using architecture defaults\n'}
+[0.467746] (patchworkpp) StdoutLine: {'line': b'-- SSE4.1:            Using architecture defaults\n'}
+[0.467766] (patchworkpp) StdoutLine: {'line': b'-- SSE4.2:            Using architecture defaults\n'}
+[0.467786] (patchworkpp) StdoutLine: {'line': b'-- AVX:               Using architecture defaults\n'}
+[0.467806] (patchworkpp) StdoutLine: {'line': b'-- AVX2:              Using architecture defaults\n'}
+[0.467826] (patchworkpp) StdoutLine: {'line': b'-- FMA:               Using architecture defaults\n'}
+[0.467847] (patchworkpp) StdoutLine: {'line': b'-- AVX512:            Using architecture defaults\n'}
+[0.467866] (patchworkpp) StdoutLine: {'line': b'-- AVX512DQ:          Using architecture defaults\n'}
+[0.467886] (patchworkpp) StdoutLine: {'line': b'-- Altivec:           Using architecture defaults\n'}
+[0.467905] (patchworkpp) StdoutLine: {'line': b'-- VSX:               Using architecture defaults\n'}
+[0.467925] (patchworkpp) StdoutLine: {'line': b'-- MIPS MSA:          Using architecture defaults\n'}
+[0.467945] (patchworkpp) StdoutLine: {'line': b'-- ARM NEON:          Using architecture defaults\n'}
+[0.467965] (patchworkpp) StdoutLine: {'line': b'-- ARMv8 NEON:        Using architecture defaults\n'}
+[0.467984] (patchworkpp) StdoutLine: {'line': b'-- S390X ZVECTOR:     Using architecture defaults\n'}
+[0.468008] (patchworkpp) StdoutLine: {'line': b'-- C++11:             OFF\n'}
+[0.468027] (patchworkpp) StdoutLine: {'line': b'-- SYCL:              OFF\n'}
+[0.468050] (patchworkpp) StdoutLine: {'line': b'-- CUDA:              OFF\n'}
+[0.468073] (patchworkpp) StdoutLine: {'line': b'-- HIP:               OFF\n'}
+[0.468092] (patchworkpp) StdoutLine: {'line': b'-- \n'}
+[0.468114] (patchworkpp) StdoutLine: {'line': b'CXX:               /usr/bin/c++\n'}
+[0.468134] (patchworkpp) StdoutLine: {'line': b' CXX_VERSION:       c++ (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0\n'}
+[0.468154] (patchworkpp) StdoutLine: {'line': b' CXX_FLAGS:           -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi\n'}
+[0.468182] (patchworkpp) StdoutLine: {'line': b' Sparse lib flags:   ;/usr/lib/x86_64-linux-gnu/libsuperlu.so;eigen_blas\n'}
+[0.468205] (patchworkpp) StdoutLine: {'line': b'\n'}
+[0.468225] (patchworkpp) StdoutLine: {'line': b'-- ************************************************************\n'}
+[0.468246] (patchworkpp) StdoutLine: {'line': b'-- \n'}
+[0.468268] (patchworkpp) StdoutLine: {'line': b'-- Configured Eigen 3.4.0\n'}
+[0.468288] (patchworkpp) StdoutLine: {'line': b'-- \n'}
+[0.468308] (patchworkpp) StdoutLine: {'line': b'-- Available targets (use: make TARGET):\n'}
+[0.468327] (patchworkpp) StdoutLine: {'line': b'-- ---------+--------------------------------------------------------------\n'}
+[0.468350] (patchworkpp) StdoutLine: {'line': b'-- Target   |   Description\n'}
+[0.468370] (patchworkpp) StdoutLine: {'line': b'-- ---------+--------------------------------------------------------------\n'}
+[0.468391] (patchworkpp) StdoutLine: {'line': b'-- install  | Install Eigen. Headers will be installed to:\n'}
+[0.468411] (patchworkpp) StdoutLine: {'line': b'--          |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>\n'}
+[0.468431] (patchworkpp) StdoutLine: {'line': b'--          |   Using the following values:\n'}
+[0.468454] (patchworkpp) StdoutLine: {'line': b'--          |     CMAKE_INSTALL_PREFIX: /home/aiv/ev_ws/ros2/install/patchworkpp\n'}
+[0.468474] (patchworkpp) StdoutLine: {'line': b'--          |     INCLUDE_INSTALL_DIR:  include/eigen3\n'}
+[0.468494] (patchworkpp) StdoutLine: {'line': b'--          |   Change the install location of Eigen headers using:\n'}
+[0.468515] (patchworkpp) StdoutLine: {'line': b'--          |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix\n'}
+[0.468537] (patchworkpp) StdoutLine: {'line': b'--          |   Or:\n'}
+[0.468559] (patchworkpp) StdoutLine: {'line': b'--          |     cmake . -DINCLUDE_INSTALL_DIR=yourdir\n'}
+[0.468580] (patchworkpp) StdoutLine: {'line': b'-- doc      | Generate the API documentation, requires Doxygen & LaTeX\n'}
+[0.468600] (patchworkpp) StdoutLine: {'line': b'-- check    | Build and run the unit-tests. Read this page:\n'}
+[0.468619] (patchworkpp) StdoutLine: {'line': b'--          |   http://eigen.tuxfamily.org/index.php?title=Tests\n'}
+[0.468639] (patchworkpp) StdoutLine: {'line': b'-- blas     | Build BLAS library (not the same thing as Eigen)\n'}
+[0.468659] (patchworkpp) StdoutLine: {'line': b'-- uninstall| Remove files installed by the install target\n'}
+[0.468691] (patchworkpp) StdoutLine: {'line': b'-- ---------+--------------------------------------------------------------\n'}
+[0.468713] (patchworkpp) StdoutLine: {'line': b'-- \n'}
+[0.468877] (patchworkpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.468938] (patchworkpp) StderrLine: {'line': b'\x1b[0mParent project name: patchworkpp\x1b[0m\n'}
+[0.499921] (-) TimerEvent: {}
+[0.533094] (patchworkpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.536675] (patchworkpp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.545669] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.546900] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.549777] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.554784] (patchworkpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.561366] (patchworkpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.586630] (patchworkpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.598611] (patchworkpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.599647] (patchworkpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.599970] (-) TimerEvent: {}
+[0.608179] (patchworkpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.625263] (patchworkpp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.633509] (patchworkpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.640991] (patchworkpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.700133] (-) TimerEvent: {}
+[0.706740] (patchworkpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800208] (-) TimerEvent: {}
+[0.900576] (-) TimerEvent: {}
+[1.000846] (-) TimerEvent: {}
+[1.101132] (-) TimerEvent: {}
+[1.178704] (patchworkpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.201292] (-) TimerEvent: {}
+[1.301531] (-) TimerEvent: {}
+[1.339922] (patchworkpp) StdoutLine: {'line': b'-- Build files have been written to: /home/aiv/ev_ws/ros2/build/patchworkpp\n'}
+[1.401627] (-) TimerEvent: {}
+[1.434492] (patchworkpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ground_seg_cores\x1b[0m\n'}
+[1.434769] (patchworkpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target patchworkpp_node\x1b[0m\n'}
+[1.445891] (patchworkpp) StdoutLine: {'line': b'\x1b[32mBuilding CXX object patchworkpp_cpp/patchworkpp/CMakeFiles/ground_seg_cores.dir/src/patchworkpp.cpp.o\x1b[0m\n'}
+[1.447117] (patchworkpp) StdoutLine: {'line': b'Built target patchworkpp_node\n'}
+[1.501698] (-) TimerEvent: {}
+[1.601934] (-) TimerEvent: {}
+[1.702150] (-) TimerEvent: {}
+[1.802436] (-) TimerEvent: {}
+[1.902700] (-) TimerEvent: {}
+[2.002981] (-) TimerEvent: {}
+[2.103250] (-) TimerEvent: {}
+[2.203514] (-) TimerEvent: {}
+[2.303930] (-) TimerEvent: {}
+[2.404205] (-) TimerEvent: {}
+[2.504578] (-) TimerEvent: {}
+[2.604935] (-) TimerEvent: {}
+[2.705296] (-) TimerEvent: {}
+[2.805644] (-) TimerEvent: {}
+[2.906001] (-) TimerEvent: {}
+[3.006362] (-) TimerEvent: {}
+[3.106722] (-) TimerEvent: {}
+[3.207077] (-) TimerEvent: {}
+[3.307411] (-) TimerEvent: {}
+[3.407771] (-) TimerEvent: {}
+[3.508134] (-) TimerEvent: {}
+[3.608505] (-) TimerEvent: {}
+[3.708865] (-) TimerEvent: {}
+[3.809226] (-) TimerEvent: {}
+[3.909621] (-) TimerEvent: {}
+[4.009935] (-) TimerEvent: {}
+[4.110207] (-) TimerEvent: {}
+[4.210471] (-) TimerEvent: {}
+[4.310673] (-) TimerEvent: {}
+[4.410981] (-) TimerEvent: {}
+[4.511311] (-) TimerEvent: {}
+[4.611636] (-) TimerEvent: {}
+[4.711928] (-) TimerEvent: {}
+[4.812270] (-) TimerEvent: {}
+[4.912496] (-) TimerEvent: {}
+[5.012789] (-) TimerEvent: {}
+[5.113108] (-) TimerEvent: {}
+[5.213428] (-) TimerEvent: {}
+[5.313757] (-) TimerEvent: {}
+[5.414002] (-) TimerEvent: {}
+[5.514235] (-) TimerEvent: {}
+[5.614519] (-) TimerEvent: {}
+[5.714832] (-) TimerEvent: {}
+[5.815046] (-) TimerEvent: {}
+[5.915281] (-) TimerEvent: {}
+[6.015509] (-) TimerEvent: {}
+[6.115714] (-) TimerEvent: {}
+[6.216025] (-) TimerEvent: {}
+[6.316244] (-) TimerEvent: {}
+[6.416568] (-) TimerEvent: {}
+[6.516861] (-) TimerEvent: {}
+[6.617160] (-) TimerEvent: {}
+[6.717468] (-) TimerEvent: {}
+[6.817783] (-) TimerEvent: {}
+[6.918000] (-) TimerEvent: {}
+[7.018294] (-) TimerEvent: {}
+[7.118493] (-) TimerEvent: {}
+[7.218716] (-) TimerEvent: {}
+[7.319018] (-) TimerEvent: {}
+[7.419363] (-) TimerEvent: {}
+[7.519552] (-) TimerEvent: {}
+[7.619846] (-) TimerEvent: {}
+[7.720138] (-) TimerEvent: {}
+[7.820428] (-) TimerEvent: {}
+[7.920704] (-) TimerEvent: {}
+[8.020929] (-) TimerEvent: {}
+[8.045747] (patchworkpp) StdoutLine: {'line': b'\x1b[32m\x1b[1mLinking CXX static library libground_seg_cores.a\x1b[0m\n'}
+[8.068266] (patchworkpp) StdoutLine: {'line': b'Built target ground_seg_cores\n'}
+[8.075749] (patchworkpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gseg_component\x1b[0m\n'}
+[8.087512] (patchworkpp) StdoutLine: {'line': b'\x1b[32mBuilding CXX object CMakeFiles/gseg_component.dir/src/GroundSegmentationServer.cpp.o\x1b[0m\n'}
+[8.121038] (-) TimerEvent: {}
+[8.221348] (-) TimerEvent: {}
+[8.321714] (-) TimerEvent: {}
+[8.421964] (-) TimerEvent: {}
+[8.522330] (-) TimerEvent: {}
+[8.622837] (-) TimerEvent: {}
+[8.723175] (-) TimerEvent: {}
+[8.823523] (-) TimerEvent: {}
+[8.923834] (-) TimerEvent: {}
+[9.024052] (-) TimerEvent: {}
+[9.124246] (-) TimerEvent: {}
+[9.224493] (-) TimerEvent: {}
+[9.324830] (-) TimerEvent: {}
+[9.425174] (-) TimerEvent: {}
+[9.525444] (-) TimerEvent: {}
+[9.625662] (-) TimerEvent: {}
+[9.725868] (-) TimerEvent: {}
+[9.826074] (-) TimerEvent: {}
+[9.926320] (-) TimerEvent: {}
+[10.026525] (-) TimerEvent: {}
+[10.126730] (-) TimerEvent: {}
+[10.226962] (-) TimerEvent: {}
+[10.327209] (-) TimerEvent: {}
+[10.427446] (-) TimerEvent: {}
+[10.527644] (-) TimerEvent: {}
+[10.627968] (-) TimerEvent: {}
+[10.728272] (-) TimerEvent: {}
+[10.828582] (-) TimerEvent: {}
+[10.928796] (-) TimerEvent: {}
+[11.029119] (-) TimerEvent: {}
+[11.129430] (-) TimerEvent: {}
+[11.229640] (-) TimerEvent: {}
+[11.329954] (-) TimerEvent: {}
+[11.430159] (-) TimerEvent: {}
+[11.530354] (-) TimerEvent: {}
+[11.630645] (-) TimerEvent: {}
+[11.730938] (-) TimerEvent: {}
+[11.831159] (-) TimerEvent: {}
+[11.931477] (-) TimerEvent: {}
+[12.031705] (-) TimerEvent: {}
+[12.131912] (-) TimerEvent: {}
+[12.232109] (-) TimerEvent: {}
+[12.332391] (-) TimerEvent: {}
+[12.432727] (-) TimerEvent: {}
+[12.532950] (-) TimerEvent: {}
+[12.633160] (-) TimerEvent: {}
+[12.733454] (-) TimerEvent: {}
+[12.833762] (-) TimerEvent: {}
+[12.934066] (-) TimerEvent: {}
+[13.034379] (-) TimerEvent: {}
+[13.134675] (-) TimerEvent: {}
+[13.234987] (-) TimerEvent: {}
+[13.335306] (-) TimerEvent: {}
+[13.435594] (-) TimerEvent: {}
+[13.535898] (-) TimerEvent: {}
+[13.636214] (-) TimerEvent: {}
+[13.736519] (-) TimerEvent: {}
+[13.836819] (-) TimerEvent: {}
+[13.937120] (-) TimerEvent: {}
+[14.037463] (-) TimerEvent: {}
+[14.137779] (-) TimerEvent: {}
+[14.238096] (-) TimerEvent: {}
+[14.338391] (-) TimerEvent: {}
+[14.438701] (-) TimerEvent: {}
+[14.539004] (-) TimerEvent: {}
+[14.639341] (-) TimerEvent: {}
+[14.739769] (-) TimerEvent: {}
+[14.840081] (-) TimerEvent: {}
+[14.940386] (-) TimerEvent: {}
+[15.040640] (-) TimerEvent: {}
+[15.140935] (-) TimerEvent: {}
+[15.241187] (-) TimerEvent: {}
+[15.341423] (-) TimerEvent: {}
+[15.441662] (-) TimerEvent: {}
+[15.541860] (-) TimerEvent: {}
+[15.642155] (-) TimerEvent: {}
+[15.697315] (patchworkpp) StdoutLine: {'line': b'\x1b[32m\x1b[1mLinking CXX shared library libgseg_component.so\x1b[0m\n'}
+[15.742370] (-) TimerEvent: {}
+[15.791959] (patchworkpp) StdoutLine: {'line': b'Built target gseg_component\n'}
+[15.800653] (patchworkpp) CommandEnded: {'returncode': 0}
+[15.802553] (patchworkpp) JobProgress: {'identifier': 'patchworkpp', 'progress': 'install'}
+[15.809215] (patchworkpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiv/ev_ws/ros2/build/patchworkpp'], 'cwd': '/home/aiv/ev_ws/ros2/build/patchworkpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aiv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/aiv/ev_ws/ros2/install/velodyne_pointcloud/lib:/home/aiv/ev_ws/ros2/install/velodyne_driver/lib:/home/aiv/ev_ws/ros2/install/velodyne_msgs/lib:/home/aiv/ev_ws/ros2/install/velodyne_laserscan/lib:/home/aiv/ev_ws/ros2/install/patchworkpp/lib:/home/aiv/ros2_study/install/my_first_package_msgs/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs/lib:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util/lib:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_serial/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_util/lib:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util/lib:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aiv'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aiv/ev_ws/ros2/src/patchwork-plusplus'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/aiv/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/aiv/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2103'), ('SYSTEMD_EXEC_PID', '2368'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('NVM_DIR', '/home/aiv/.nvm'), ('COLCON_PREFIX_PATH', '/home/aiv/ros2_study/install:/home/aiv/workspace/ros2/erp42_ros/install:/home/aiv/workspace/ros2/t870_ros/install:/home/aiv/workspace/ros2/erp42_racing_ros/install:/home/aiv/workspace/ros2/velodyne/install:/home/aiv/ev_ws/ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiv'), ('JOURNAL_STREAM', '8:21840'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiv/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiv:@/tmp/.ICE-unix/2339,unix/aiv:/tmp/.ICE-unix/2339'), ('INVOCATION_ID', '9ad36782e1064f8d8316413fb8fd0d26'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-84c9dd9eb3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aiv/ev_ws/ros2/install/velodyne:/home/aiv/ev_ws/ros2/install/velodyne_pointcloud:/home/aiv/ev_ws/ros2/install/velodyne_driver:/home/aiv/ev_ws/ros2/install/velodyne_msgs:/home/aiv/ev_ws/ros2/install/velodyne_laserscan:/home/aiv/ev_ws/ros2/install/patchworkpp:/home/aiv/ros2_study/install/my_second_package:/home/aiv/ros2_study/install/my_first_package_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs:/home/aiv/workspace/ros2/erp42_ros/install/erp42_description:/home/aiv/workspace/ros2/erp42_ros/install/erp42_cmake:/home/aiv/workspace/ros2/t870_ros/install/t870_serial:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin:/home/aiv/workspace/ros2/t870_ros/install/t870_util:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs:/home/aiv/workspace/ros2/t870_ros/install/t870_cmake:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_description:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f5acd998-780d-4b58-8656-e115cd36effd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiv/ev_ws/ros2/build/patchworkpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aiv/ev_ws/ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/aiv/ros2_study/install/my_second_package/lib/python3.10/site-packages:/home/aiv/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs/local/lib/python3.10/dist-packages:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'code --wait'), ('CMAKE_PREFIX_PATH', '/home/aiv/ev_ws/ros2/install/velodyne:/home/aiv/ev_ws/ros2/install/velodyne_pointcloud:/home/aiv/ev_ws/ros2/install/velodyne_driver:/home/aiv/ev_ws/ros2/install/velodyne_msgs:/home/aiv/ev_ws/ros2/install/velodyne_laserscan:/home/aiv/ev_ws/ros2/install/patchworkpp:/home/aiv/ros2_study/install/my_first_package_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne:/home/aiv/workspace/ros2/velodyne/install/velodyne_pointcloud:/home/aiv/workspace/ros2/velodyne/install/velodyne_driver:/home/aiv/workspace/ros2/velodyne/install/velodyne_msgs:/home/aiv/workspace/ros2/velodyne/install/velodyne_laserscan:/home/aiv/workspace/ros2/erp42_ros/install/erp42_serial:/home/aiv/workspace/ros2/erp42_ros/install/erp42_rqt_plugin:/home/aiv/workspace/ros2/erp42_ros/install/erp42_gazebo:/home/aiv/workspace/ros2/erp42_ros/install/erp42_util:/home/aiv/workspace/ros2/erp42_ros/install/erp42_msgs:/home/aiv/workspace/ros2/erp42_ros/install/erp42_description:/home/aiv/workspace/ros2/erp42_ros/install/erp42_cmake:/home/aiv/workspace/ros2/t870_ros/install/t870_serial:/home/aiv/workspace/ros2/t870_ros/install/t870_rqt_plugin:/home/aiv/workspace/ros2/t870_ros/install/t870_util:/home/aiv/workspace/ros2/t870_ros/install/t870_msgs:/home/aiv/workspace/ros2/t870_ros/install/t870_cmake:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_serial:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_rqt_plugin:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_gazebo:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_util:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_msgs:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_description:/home/aiv/workspace/ros2/erp42_racing_ros/install/erp42_racing_cmake:/home/aiv/ros2_study/install/my_second_package:/opt/ros/humble')]), 'shell': False}
+[15.815061] (patchworkpp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.815191] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/include\n'}
+[15.815219] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/include/patchwork\n'}
+[15.816772] (patchworkpp) StdoutLine: {'line': b'-- Installing: /home/aiv/ev_ws/ros2/install/patchworkpp/include/patchwork/patchworkpp.h\n'}
+[15.816853] (patchworkpp) StdoutLine: {'line': b'-- Installing: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/libground_seg_cores.a\n'}
+[15.816987] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppConfig.cmake\n'}
+[15.817010] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppConfig-release.cmake\n'}
+[15.817069] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppTargets.cmake\n'}
+[15.817091] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/cmake/patchworkpp/patchworkppTargets-release.cmake\n'}
+[15.817235] (patchworkpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.817412] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/patchworkpp/patchworkpp_node\n'}
+[15.817489] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/lib/libgseg_component.so\n'}
+[15.817572] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp//launch/patchworkpp.launch.py\n'}
+[15.817652] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp//rviz/patchworkpp.rviz\n'}
+[15.817724] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp\n'}
+[15.817784] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp\n'}
+[15.817839] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh\n'}
+[15.817892] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv\n'}
+[15.817941] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/path.sh\n'}
+[15.817988] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/environment/path.dsv\n'}
+[15.818034] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.bash\n'}
+[15.818079] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.sh\n'}
+[15.818124] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.zsh\n'}
+[15.818168] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/local_setup.dsv\n'}
+[15.818202] (patchworkpp) StdoutLine: {'line': b'-- Symlinking: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/package.dsv\n'}
+[15.824448] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp\n'}
+[15.824518] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/ament_index/resource_index/rclcpp_components/patchworkpp\n'}
+[15.824543] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake\n'}
+[15.824590] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake\n'}
+[15.824613] (patchworkpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiv/ev_ws/ros2/install/patchworkpp/share/patchworkpp/package.xml\n'}
+[15.825591] (patchworkpp) CommandEnded: {'returncode': 0}
+[15.838361] (patchworkpp) JobEnded: {'identifier': 'patchworkpp', 'rc': 0}
+[15.838614] (-) EventReactorShutdown: {}
