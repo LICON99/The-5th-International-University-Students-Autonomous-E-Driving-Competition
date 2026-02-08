@@ -316,8 +316,8 @@ include("/home/aiv/ev_ws/ros2/build/patchworkpp/ament_cmake_symlink_install_targ
 # install("TARGETS" "gseg_component" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/patchworkpp")
 include("/home/aiv/ev_ws/ros2/build/patchworkpp/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "launch" "rviz" "DESTINATION" "share/patchworkpp/")
-ament_cmake_symlink_install_directory("/home/aiv/ev_ws/ros2/src/patchwork-plusplus/ros" DIRECTORY "launch" "rviz" "DESTINATION" "share/patchworkpp/")
+# install(DIRECTORY "launch" "rviz" "params" "DESTINATION" "share/patchworkpp/")
+ament_cmake_symlink_install_directory("/home/aiv/ev_ws/ros2/src/patchwork-plusplus/ros" DIRECTORY "launch" "rviz" "params" "DESTINATION" "share/patchworkpp/")
 
 # install(FILES "/home/aiv/ev_ws/ros2/build/patchworkpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/patchworkpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/aiv/ev_ws/ros2/src/patchwork-plusplus/ros" FILES "/home/aiv/ev_ws/ros2/build/patchworkpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/patchworkpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
