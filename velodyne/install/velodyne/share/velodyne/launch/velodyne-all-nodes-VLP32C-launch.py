@@ -1,0 +1,1 @@
+/home/aiv/workspace/ros2/velodyne/velodyne/launch/velodyne-all-nodes-VLP32C-launch.py

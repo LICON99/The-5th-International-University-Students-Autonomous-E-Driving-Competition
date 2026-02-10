@@ -1,0 +1,1 @@
+/home/aiv/workspace/ros2/velodyne/build/velodyne_msgs/rosidl_generator_py/velodyne_msgs/__init__.py
